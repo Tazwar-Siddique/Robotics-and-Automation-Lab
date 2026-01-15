@@ -1,0 +1,5 @@
+    <launch>
+        <include file="$(find final_project)/Launch/Detect.launch" />
+        <include file="$(find final_project)/Launch/Filter.launch" />
+        <include file="$(find final_project)/Launch/lab3.launch" />
+    </launch>
